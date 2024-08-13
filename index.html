@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="css/styles.css">
+    <!--Favicon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <!--Scripts Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -27,6 +29,23 @@
                 <a href="#" class="navbar-brand">
                     <img id="logo" src="img/logo-colorida.png.svg" alt="Logo Esquadrão da Alegria">
                 </a>
+                <button  class="navbar-toggler navbar-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar-links"
+                aria-controls="navbar-links"
+                aria-expanded="false"
+                aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link" id="about-menu">Conheça</a>
+                        <a href="#" class="nav-item nav-link" id="hospitals-menu">Hospitais</a>
+                        <a href="#" class="nav-item nav-link" id="partners-menu">Parceiros</a>
+                        <a href="#" class="nav-item nav-link" id="contact-menu">Fale Conosco</a>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
