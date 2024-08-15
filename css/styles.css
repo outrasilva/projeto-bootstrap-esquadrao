@@ -7,26 +7,12 @@ body {
     margin: 0;
 }
 
-.container {
-    padding: 70px 0;
-}
-
-p, li {
-    color: #1E1C1C;
-    font-size: 14px;
-}
-
 /* Navbar */
 header, .navbar {
     background-color: #F3F8FF;
 }
 
-#nav-container {
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-#logo {
+.navbar-brand img {
     width: 75px;
 }
 
@@ -38,8 +24,4 @@ header, .navbar {
 
 #navbar-links a:hover {
     color: #ED1B24;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding: 1rem .8rem;
 }
